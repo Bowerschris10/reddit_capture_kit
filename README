@@ -1,0 +1,24 @@
+Christopher Bowers
+bowerschris10@gmail.com
+
+README - Reddit Capture Kit
+
+Project Goals:
+Make the process of editing Reddit text-to-speech videos easier by reducing the time spent on editing reddit comments together.
+
+File descriptions:
+comment_urls
+  Url list of Reddit comments to be captured by the rck_new_folder.py script
+
+image_processing.py
+  Python module with useful functions for processing images. For general use image processing.
+  
+image_processing_rck.py
+  Ptyhon module used by rck_new_folder.py. Has many functions specifically useful to rck_new_folder.py
+
+rck_installer.py
+  Installs the majority of required modules for the rck_new_folderl.py that are not included in python3.7
+  
+rck_new_folder.py
+  Takes screenshot of reddit comment, and splits screenshot into sequential lines.
+  Note: requires user to scroll down on chrome page when full comment is not displayed
